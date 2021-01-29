@@ -1,0 +1,35 @@
+# # # # # # # # # # # # # # # # # # # # # # # #
+# VRolePlay, 2021, edited TemaFlux            #
+# # # # # # # # # # # # # # # # # # # # # # # #
+
+# Appearance of chat messages
+message:
+  commands:
+    try:
+      message: '&e%player% &7%action% &7(%result%&7)'
+      success: '&aSuccess'
+      fail: '&cFail'
+    me: '&7%player% &8%message%'
+    do: '&7*%action%* (%player%) '
+    mask:
+      name: '&eUnknown&r'
+      activate: '&eMask enabled'
+      deactivate: '&6Mask disabled'
+    ooc: '&7(OOC) &8%player%: &7%message%'
+    todo:
+      message: '&7%message% - said %player%, %action%'
+      error: "&cIncorrect use of the command. Right: /todo message*action"
+  general:
+    notplayer: 'You are not a player'
+    nopermissions: 'You have no right to do this'
+    error: 'An error occurred when using the command. Use /vroleplay help for help.'
+  help:
+    - '&8[&6V&eRolePlay&8]'
+    - '/try <action> - an action that may or may not be performed successfully'
+    - '/me <message> - a message from a third party'
+    - '/do <action> - this command is intended for describing the events of the game world in the present time'
+    - '/b <message> - OOC-chat'
+    - '/mask - enables/disables mask'
+
+# The range of the visible messages
+range: 5

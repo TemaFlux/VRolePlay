@@ -1,0 +1,34 @@
+name: VRolePlay
+main: me.vahelce.vroleplay.VRoleplay
+version: 2.1-SNAPSHOT
+authors: [vahelce, TemaFlux]
+
+permissions:
+  vroleplay.try:
+    description: "Allow to use /try command"
+  vroleplay.me:
+    description: "Allow to use /me command"
+  vroleplay.do:
+    description: "Allow to use /do command"
+  vroleplay.ooc:
+    description: "Allow to use OOC chat"
+  vrolepaly.mask:
+    description: "Allow to use masks"
+  vroleplay.todo:
+    description: "Allow to use /todo"
+
+commands:
+  todo:
+    permission: "vroleplay.todo"
+  try:
+    permission: "vroleplay.try"
+  me:
+    permission: "vroleplay.me"
+  do:
+    permission: "vroleplay.do"
+  b:
+   permission: "vroleplay.ooc"
+  rpmask:
+    permission: "vroleplay.mask"
+  vroleplay:
+    description: "VRolePlay help"
